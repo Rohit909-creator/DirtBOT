@@ -4,7 +4,7 @@ import time
 import openai
 
 # print(st.__version__)
-openai.api_key = "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"
+openai.api_key = "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"
 st.title("Dirt Chat")
 
 
