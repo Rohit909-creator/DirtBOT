@@ -2,9 +2,9 @@ import streamlit as st
 import random
 import time
 import openai
-
+import os
 # print(st.__version__)
-openai.api_key = "key"
+openai.api_key = os.getenv("OPEN_AI_API_KEY")
 st.title("Dirt Chat")
 
 
